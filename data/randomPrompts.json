@@ -1,0 +1,235 @@
+{
+   "an app": {
+      "audience": [
+         "busy parents",
+         "college students",
+         "remote workers",
+         "frequent travelers",
+         "pet owners",
+         "fitness enthusiasts",
+         "home cooks",
+         "small business owners",
+         "language learners",
+         "people with allergies",
+         "apartment renters",
+         "outdoor adventurers",
+         "book lovers"
+      ],
+      "action": [
+         "plan meals and generate shopping lists based on dietary preferences",
+         "track expenses and split bills with roommates",
+         "find nearby events and activities on a budget",
+         "schedule meetings across different time zones",
+         "organize photos and create beautiful memories",
+         "discover new recipes based on ingredients they already have",
+         "track water intake and stay hydrated throughout the day",
+         "find pet-friendly places and services in their area",
+         "learn a new skill with 5-minute daily lessons",
+         "find affordable housing options with specific amenities",
+         "track medication schedules and get timely reminders",
+         "organize household chores and track who does what",
+         "find local classes and workshops with real-time availability",
+         "easily find products with visual search rather than text",
+         "book appointments without phone calls or emails",
+         "browse portfolio examples with detailed case studies",
+         "find local classes and workshops with real-time availability"
+      ],
+      "technology": [
+         "Apply a clean, minimalist SaaS design style",
+         "Work offline when there's no signal",
+         "Add personalized AI recommendations",
+         "Sync across all their devices",
+         "Add easy sharing features for social media",
+         "Add helpful reminders and notifications",
+         "Use the latest AI models and tools",
+         "Add a chatbot for quick customer support",
+         "Include a community feature to connect with others",
+         "Add accessibility features for all users",
+         "Make it mobile-first and work on any device"
+      ]
+   },
+   "an automation": {
+      "audience": [
+         "small business owners",
+         "freelancers",
+         "social media managers",
+         "content creators",
+         "remote teams",
+         "busy professionals",
+         "teachers and educators",
+         "event organizers",
+         "newsletter publishers",
+         "customer service teams",
+         "data teams",
+         "designers",
+         "creatives"
+      ],
+      "action": [
+         "schedule and publish social media content across platforms",
+         "send personalized follow-up emails to clients",
+         "organize and categorize incoming emails based on priority",
+         "track project hours and generate invoices automatically",
+         "create beautiful graphics for social media without design skills",
+         "transcribe meeting notes and highlight action items",
+         "generate weekly progress reports from project management tools",
+         "collect customer feedback and organize it by sentiment",
+         "respond to common customer inquiries instantly",
+         "create custom workflows between their favorite apps"
+      ],
+      "technology": [
+         "No coding or technical skills required",
+         "Integrate with tools they already use",
+         "Customize templates for their brand",
+         "Include detailed analytics to measure impact",
+         "Learn from user behavior and improve over time",
+         "Allow team members to collaborate",
+         "Include A/B testing capabilities",
+         "Add data handling and privacy controls",
+         "Add multi-language support"
+      ]
+   },
+   "a website": {
+      "audience": [
+         "local business customers",
+         "art enthusiasts",
+         "potential clients",
+         "community members",
+         "online shoppers",
+         "newsletter subscribers",
+         "industry professionals",
+         "new homeowners",
+         "job seekers",
+         "event attendees",
+         "podcast listeners",
+         "hobby enthusiasts"
+      ],
+      "action": [
+         "easily find products with visual search rather than text",
+         "book appointments without phone calls or emails",
+         "browse portfolio examples with detailed case studies",
+         "find local classes and workshops with real-time availability",
+         "purchase handmade products with customization options",
+         "access educational resources organized by skill level",
+         "discover personalized recommendations based on preferences",
+         "compare services and pricing in an intuitive way",
+         "subscribe to exclusive content with flexible payment options",
+         "connect with others who share their interests"
+      ],
+      "technology": [
+         "Use a mobile-first design that works on any device",
+         "Load lightning-fast even on slow connections",
+         "Add a dark mode option for nighttime browsing",
+         "Use stunning visuals and smooth animations",
+         "Make it easy to update content without coding",
+         "Use built-in SEO features to attract more visitors",
+         "Include live chat support for quick questions",
+         "Add multi-language support for global visitors",
+         "Feature user-generated reviews and testimonials",
+         "Add beautiful stock imagery and illustrations"
+      ]
+   },
+   "a game": {
+      "audience": [
+         "casual players",
+         "families with young children",
+         "friends in different locations",
+         "older adults",
+         "language learners",
+         "puzzle enthusiasts",
+         "fantasy lovers",
+         "history buffs",
+         "people looking for brain training",
+         "party groups",
+         "coworkers during lunch breaks",
+         "people who are short on time"
+      ],
+      "action": [
+         "collaborate to solve mysteries with unique character abilities",
+         "learn about different cultures through fun challenges",
+         "build and customize their dream garden with magical elements",
+         "compete in quick, 5-minute challenges they can play anytime",
+         "solve puzzles that adapt to their skill level",
+         "manage resources and build communities with sustainable practices",
+         "create and share their own levels and challenges",
+         "explore an enchanted world with hidden secrets to discover",
+         "improve memory and concentration with daily brain games",
+         "play together without needing to create accounts or downloads"
+      ],
+      "technology": [
+         "Use a beautiful hand-drawn art style",
+         "Save progress automatically across devices",
+         "Add relaxing sound design and soundtrack",
+         "Be easy to learn but offers depth for mastery",
+         "Feature procedurally generated content for endless play",
+         "Add optional hints when they get stuck",
+         "Work in a web browser without installation",
+         "Use colorblind-friendly design and accessibility options",
+         "Add local multiplayer for same-couch play",
+         "Add achievements to track their progress"
+      ]
+   },
+   "a data tool": {
+      "audience": [
+         "data teams",
+         "analysts",
+         "developers",
+         "product managers",
+         "designers",
+         "creatives"
+      ],
+      "action": [
+         "analyze data and create shareable visualizations",
+         "build custom dashboards and reports",
+         "scrape data from websites and social media",
+         "find insights and trends in their data",
+         "communicate with their team and clients"
+      ],
+      "technology": [
+         "Use the latest AI models and tools",
+         "Allow technical teams to integrate with their data",
+         "Add a chatbot to chat with their data",
+         "Make it mobile friendly and easy to use on the go",
+         "Translate user questions into SQL queries"
+      ]
+   },
+   "a business tool": {
+      "audience": [
+         "sales teams",
+         "HR managers",
+         "startup founders",
+         "project managers",
+         "marketing teams",
+         "consultants",
+         "real estate agents",
+         "financial advisors",
+         "retail managers",
+         "business executives",
+         "account managers",
+         "procurement teams"
+      ],
+      "action": [
+         "track sales pipeline and forecast revenue",
+         "streamline employee onboarding and training",
+         "manage client relationships and follow-ups",
+         "monitor team performance metrics",
+         "generate professional business proposals",
+         "analyze competitor pricing and market trends",
+         "schedule and track client meetings efficiently",
+         "manage inventory and supply chain",
+         "create and track marketing campaigns",
+         "automate expense reporting and approvals",
+         "track project budgets and resource allocation"
+      ],
+      "technology": [
+         "Integrate with popular CRM systems",
+         "Include customizable reporting dashboards",
+         "Add role-based access controls",
+         "Enable team collaboration features",
+         "Include data export capabilities",
+         "Add audit logging for compliance",
+         "Add SSO and enterprise security features",
+         "Enable API access for custom integrations",
+         "Add automated backup and recovery"
+      ]
+   }
+}

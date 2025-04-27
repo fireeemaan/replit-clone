@@ -10,6 +10,11 @@
          href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pixelify+Sans:wght@400..700&display=swap"
          rel="stylesheet"
       />
+      <script
+         src="https://code.jquery.com/jquery-3.7.1.min.js"
+         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+         crossorigin="anonymous"
+      ></script>
       <link
          rel="stylesheet"
          href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
@@ -104,18 +109,31 @@
                <div class="prompt-text-container">
                   <p class="prompt-text">
                      <span class="default-prompt">Make me</span>
-                     <span class="random-text" id="type">a bussiness tool</span>
-                     <br />
-                     <span class="default-prompt">for</span>
-                     <span class="random-text" id="audience">HR managers</span>
-                     <br />
-                     <span class="default-prompt">that helps</span>
-                     <span class="random-text" id="action"
-                        >manage inventory and supply chain</span
+                     <span class="random-text" id="type" contenteditable="true"
+                        >type of app</span
                      >
                      <br />
-                     <span class="random-text" id="technology"
-                        >Integrate with popular CRM systems</span
+                     <span class="default-prompt">for</span>
+                     <span
+                        class="random-text"
+                        id="audience"
+                        contenteditable="true"
+                        >who/what</span
+                     >
+                     <br />
+                     <span class="default-prompt">that helps</span>
+                     <span
+                        class="random-text"
+                        id="action"
+                        contenteditable="true"
+                        >goal/problem</span
+                     >
+                     <br />
+                     <span
+                        class="random-text"
+                        id="technology"
+                        contenteditable="true"
+                        >add more details (optional)</span
                      >
                   </p>
                </div>
@@ -166,6 +184,7 @@
             <img
                src="https://cdn.sanity.io/images/bj34pdbp/migration/26280dc59e937e0e8bd76b65dee1e818ad9aae2b-1760x1350.png?w=1200&q=80&fit=clip&auto=format"
                alt=""
+               id="img-step"
             />
             <div class="step-button">
                <button id="btn-step-back">
@@ -257,5 +276,7 @@
             </div>
          </div>
       </div>
+      <script src="js/promptMaker.js"></script>
+      <script src="js/script.js"></script>
    </body>
 </html>

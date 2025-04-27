@@ -103,19 +103,35 @@ body {
 
 #type {
    border-bottom: 2px solid #3b82f6;
+   transition: all 0.2s ease-in-out;
+   &:hover {
+      background-color: #3b83f640;
+   }
 }
 
 #audience {
    border-bottom: 2px solid #22c55e;
+   transition: all 0.2s ease-in-out;
+   &:hover {
+      background-color: #22c55e40;
+   }
 }
 
 #action {
    border-bottom: 2px solid #a855f7;
+   transition: all 0.2s ease-in-out;
+   &:hover {
+      background-color: #a855f740;
+   }
 }
 
 #technology {
    font-size: 1.3rem;
    border-bottom: 2px solid #eab308;
+   transition: all 0.2s ease-in-out;
+   &:hover {
+      background-color: #eab30840;
+   }
 }
 
 .prompt-submit {
@@ -129,6 +145,13 @@ body {
    font-size: 1.4rem;
    border-radius: 100vw;
    margin: 0;
+   cursor: pointer;
+   transition: all 0.3s ease-in-out;
+}
+
+.prompt-submit:hover {
+   background-color: rgb(236 78 2);
+   color: white;
 }
 
 .btn-prompt-container {
@@ -254,6 +277,10 @@ body {
 }
 
 .intro-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
    padding: var(--default-spacing);
    margin-top: 3rem;
 }
@@ -267,6 +294,7 @@ body {
 .intro-title {
    font-size: 2rem;
    font-weight: 400;
+   padding-bottom: -100px;
 }
 
 .intro-title .pixel-text {
@@ -332,9 +360,18 @@ body {
 .cta-container {
    display: flex;
    flex-direction: column;
+   justify-content: center;
+   align-items: center;
    padding: var(--default-spacing);
    gap: 0.5rem;
    margin: 5rem 0 7rem 0;
+}
+
+.cta-text {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 
 .cta-title {
@@ -369,4 +406,8 @@ body {
 #cta-signup {
    background-color: rgb(236 78 2);
    color: white;
+}
+
+.guide-text {
+   display: none;
 }

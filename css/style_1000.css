@@ -13,4 +13,13 @@
    .guide-text {
       font-weight: 600;
    }
+
+   .cta-subtitle {
+      font-size: 1.2rem;
+      width: 60%;
+   }
+
+   .intro-subtitle {
+      max-width: 80%;
+   }
 }

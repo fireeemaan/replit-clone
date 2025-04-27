@@ -25,4 +25,8 @@
    .cta-container {
       text-align: center;
    }
+
+   .intro-title {
+      line-height: 0;
+   }
 }
