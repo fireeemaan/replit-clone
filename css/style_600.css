@@ -1,0 +1,28 @@
+@media (min-width: 600px) {
+   .main-text {
+      justify-content: center;
+      align-items: center;
+   }
+
+   .ai-container {
+      width: 87%;
+   }
+
+   .prompt-container {
+      border-radius: 0.8rem;
+      width: 95%;
+   }
+
+   .platform-list {
+      justify-content: center;
+      align-items: center;
+   }
+
+   .intro-container {
+      text-align: center;
+   }
+
+   .cta-container {
+      text-align: center;
+   }
+}

@@ -1,0 +1,16 @@
+@media (min-width: 1000px) {
+   .step-container img {
+      width: 20%;
+      height: 10%;
+      max-width: none;
+      flex: 7;
+   }
+
+   .step-container .step-text {
+      flex: 3;
+   }
+
+   .guide-text {
+      font-weight: 600;
+   }
+}

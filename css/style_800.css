@@ -1,0 +1,129 @@
+@media (min-width: 800px) {
+   .main-title {
+      font-size: 2.3rem;
+   }
+
+   .main-subtitle {
+      font-size: 1.17rem;
+      font-weight: 400;
+   }
+
+   .ai-container {
+      max-width: 42rem;
+   }
+
+   .prompt-text {
+      font-size: 2.2rem;
+      line-height: 3.2rem;
+   }
+
+   .intro-container {
+      width: 75%;
+   }
+
+   .intro-title {
+      font-size: 2.4rem;
+   }
+
+   .intro-subtitle {
+      font-size: 1.2rem;
+   }
+
+   .step-button {
+      display: none;
+   }
+
+   .step-container {
+      flex-direction: row;
+      width: 90%;
+      gap: 3rem;
+      justify-content: space-between;
+      align-items: center;
+
+      /* background-color: thistle; */
+   }
+
+   .step-container img {
+      width: 50%;
+      height: 20%;
+      max-width: 24rem;
+   }
+
+   .step-text-default {
+      display: none;
+   }
+
+   .step-accordion-container {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      /* background-color: tomato; */
+   }
+
+   .step-container img,
+   .step-container .step-text {
+      flex: 1;
+   }
+
+   .step-text-accordion .step-title {
+      display: flex;
+      align-items: center;
+      background-color: transparent;
+      border: 0px;
+      color: white;
+      font-size: 1.2rem;
+      font-weight: 500;
+      padding: 0px;
+      gap: 0.5rem;
+      margin-left: -1rem;
+      margin-bottom: 0px;
+   }
+
+   .step-text-accordion:not(:first-child) > .step-subtitle {
+      display: none;
+   }
+
+   .step-marker {
+      display: block;
+      height: 0.5rem;
+      width: 0.5rem;
+      background-color: rgb(102 109 121);
+      border-radius: 100vw;
+   }
+
+   .marker-active {
+      background-color: rgb(88 190 79) !important;
+   }
+
+   .step-title:has(span:not(.marker-active)) {
+      color: rgba(255, 255, 255, 0.5);
+   }
+
+   .guide-text {
+      display: flex;
+      font-size: 0.8rem;
+      margin-bottom: 1rem;
+      align-items: center;
+      gap: 0.2rem;
+      margin-left: -1.2rem;
+      font-weight: 500;
+      color: rgba(255, 255, 255, 0.5);
+   }
+
+   .guide-text i {
+      font-size: 1.2rem;
+   }
+
+   .cta-title {
+      font-size: clamp(44px, 8vw, 72px);
+   }
+
+   .cta-subtitle {
+      padding: 0 5rem 0 5rem;
+      font-size: 1.1rem;
+   }
+
+   .cta-container {
+      padding: 0 3rem 0 3rem;
+   }
+}
