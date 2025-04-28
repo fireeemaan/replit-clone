@@ -27,4 +27,58 @@ $(document).ready(function () {
          $("#img-step").fadeIn(300);
       });
    });
+
+   $(".nav-button").hover(
+      function () {
+         $(this).siblings(".nav-dropdown-content").addClass("show");
+      },
+      function () {
+         const dropdown = $(this).siblings(".nav-dropdown-content");
+
+         setTimeout(function () {
+            if (!dropdown.is(":hover")) {
+               dropdown.removeClass("show");
+            }
+         }, 50);
+      }
+   );
+
+   $(".nav-dropdown-content").hover(
+      function () {
+         $(this).addClass("show");
+      },
+      function () {
+         $(this).removeClass("show");
+      }
+   );
+
+   let lastScroll = 0;
+
+   $(window).scroll(function () {
+      let currentScroll = $(this).scrollTop();
+
+      if (currentScroll > lastScroll) {
+         $(".header").addClass("hidden");
+         $(".nav-dropdown-content").removeClass("show");
+      } else {
+         $(".header").removeClass("hidden");
+      }
+
+      lastScroll = currentScroll > 0 ? currentScroll : 0;
+   });
+
+   // $("#prompt-submit").click(function () {});
 });
+
+function sendPrompt() {
+   const appType = $("#type").text();
+   const audience = $("#audience").text();
+   const action = $("#action").text();
+   const technology = $("#technology").text();
+
+   const prompt = `Make me a ${appType} for ${audience} that ${action}. ${technology}.`;
+
+   localStorage.setItem("prompt", prompt);
+
+   window.location.href = "pages/chat/";
+}

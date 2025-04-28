@@ -9,11 +9,32 @@ function makePrompt() {
       $("#audience").text(randomAudience);
       $("#action").text(randomAction);
       $("#technology").text(randomTech);
+
+      // triggerHover("#type");
+      // triggerHover("#audience");
+      // triggerHover("#action");
+      // triggerHover("#technology");
+
+      triggerHover(["#type", "#audience", "#action", "#technology"]);
    });
 }
 
 function getRandomEl(arr) {
    return arr[Math.floor(Math.random() * arr.length)];
+}
+
+function triggerHover(arr) {
+   arr.forEach((el, index) => {
+      setTimeout(function () {
+         const element = $(el);
+
+         element.addClass("hovered");
+
+         setTimeout(function () {
+            element.removeClass("hovered");
+         }, 200);
+      }, index * 120);
+   });
 }
 
 makePrompt();

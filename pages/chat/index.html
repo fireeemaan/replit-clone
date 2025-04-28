@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Replit - AI Agent</title>
+      <link rel="stylesheet" href="../../css/chat/style.css" />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+         integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      />
+      <script
+         src="https://code.jquery.com/jquery-3.7.1.min.js"
+         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+         crossorigin="anonymous"
+      ></script>
+   </head>
+   <body>
+      <div class="chat-container">
+         <div class="chat-header">
+            <a id="btn-back" href="/"><i class="ri-logout-box-line"></i></a>
+
+            <p class="chat-title">Replit - AI Chat Agent</p>
+         </div>
+         <div class="chat-bubble-wrapper">
+            <div class="chat-bubble">
+               <p class="user">
+                  Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+               </p>
+               <img
+                  src="https://i.pravatar.cc/300"
+                  alt=""
+                  class="profile-img"
+               />
+            </div>
+         </div>
+
+         <div class="chat-bubble agent">
+            <p>
+               I'll help analyze the objective for your request. Let me plan
+               this project based on your requirements. Here's the plan :
+            </p>
+            <div class="app-plan">
+               <p class="plan-title">App Plan</p>
+               <div class="cbx">
+                  <input type="checkbox" id="plan-1" checked />
+                  <label for="plan-1">Build the initial prototype</label>
+               </div>
+               <div class="additional-features">
+                  <p>
+                     Would you like any of these additional features? We can
+                     also make changes later.
+                  </p>
+                  <div class="cbx">
+                     <input type="checkbox" id="opt-1" />
+                     <label for="opt-1"
+                        >Advanced customization options (filters, effects,
+                        etc.)</label
+                     >
+                  </div>
+                  <div class="cbx">
+                     <input type="checkbox" id="opt-2" />
+                     <label for="opt-2"
+                        >Full integration with popular customer service
+                        platforms (Zendesk, Intercom, etc.)</label
+                     >
+                  </div>
+                  <div class="cbx">
+                     <input type="checkbox" id="opt-3" />
+                     <label for="opt-3">Team collaboration features.</label>
+                  </div>
+                  <div class="cbx">
+                     <input type="checkbox" id="opt-4" />
+                     <label for="opt-4">Analytics on created graphics</label>
+                  </div>
+               </div>
+               <div class="button-container">
+                  <button id="btn-approve">
+                     <i class="ri-check-line"></i>
+                     Approve plan & start
+                  </button>
+               </div>
+            </div>
+         </div>
+         <div class="msg-field-container">
+            <input
+               type="text"
+               name="msg-field"
+               id="msg-field"
+               placeholder="Message Agent..."
+            />
+            <button id="send-msg"><i class="ri-send-plane-fill"></i></button>
+         </div>
+      </div>
+      <script src="../../js/chat.js"></script>
+   </body>
+</html>
