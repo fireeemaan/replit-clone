@@ -112,6 +112,7 @@ body {
 
 .header-button {
    display: flex;
+   gap: 0.5rem;
 }
 
 #btn-signup {

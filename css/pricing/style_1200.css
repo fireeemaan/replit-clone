@@ -1,0 +1,16 @@
+@media (max-width: 1200px) {
+   .nav-dropdown,
+   .nav-container > a,
+   .header-button {
+      display: none;
+   }
+
+   .nav-container {
+      width: 100%;
+      justify-content: space-between;
+   }
+
+   .btn-menu {
+      display: flex;
+   }
+}
