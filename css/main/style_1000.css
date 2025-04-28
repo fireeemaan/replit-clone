@@ -23,3 +23,18 @@
       max-width: 80%;
    }
 }
+
+@media (min-width: 1274px) {
+   .nav-dropdown {
+      display: inline-block;
+   }
+
+   .nav-button {
+      display: flex;
+   }
+
+   .nav-container {
+      width: unset;
+      justify-content: unset;
+   }
+}

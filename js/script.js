@@ -10,7 +10,7 @@ $(document).ready(function () {
          "https://cdn.sanity.io/images/bj34pdbp/migration/4aa92fcf5a2e1f568290451b88c873b885d8372f-1760x1350.png?w=1920&q=80&fit=clip&auto=format",
    };
 
-   $(".step-title").click(function () {
+   $(".btn-step-title").click(function () {
       $(".step-marker").removeClass("marker-active");
 
       $(".step-subtitle").hide();
@@ -35,11 +35,7 @@ $(document).ready(function () {
       function () {
          const dropdown = $(this).siblings(".nav-dropdown-content");
 
-         setTimeout(function () {
-            if (!dropdown.is(":hover")) {
-               dropdown.removeClass("show");
-            }
-         }, 50);
+         dropdown.removeClass("show");
       }
    );
 
@@ -66,8 +62,6 @@ $(document).ready(function () {
 
       lastScroll = currentScroll > 0 ? currentScroll : 0;
    });
-
-   // $("#prompt-submit").click(function () {});
 });
 
 function sendPrompt() {

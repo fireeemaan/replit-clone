@@ -10,11 +10,6 @@ function makePrompt() {
       $("#action").text(randomAction);
       $("#technology").text(randomTech);
 
-      // triggerHover("#type");
-      // triggerHover("#audience");
-      // triggerHover("#action");
-      // triggerHover("#technology");
-
       triggerHover(["#type", "#audience", "#action", "#technology"]);
    });
 }

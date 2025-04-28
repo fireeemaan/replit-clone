@@ -43,7 +43,7 @@ body {
 }
 
 .nav-button {
-   display: flex;
+   display: none;
    align-items: center;
    justify-content: center;
    background-color: transparent;
@@ -64,7 +64,10 @@ body {
 
 .nav-container {
    display: flex;
+   width: 100%;
+   justify-content: space-between;
    align-items: center;
+   /* background-color: #293e49; */
    gap: 0.5rem;
 }
 
@@ -73,7 +76,8 @@ body {
 }
 
 .nav-dropdown {
-   display: inline-block;
+   display: none;
+   /* display: inline-block; */
    position: relative;
 }
 
